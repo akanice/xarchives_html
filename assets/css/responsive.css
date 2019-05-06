@@ -1,0 +1,62 @@
+/* phones and tablets */
+@media (min-width: 768px) {
+
+}
+@media (min-width: 768px) and (max-width: 1360px) {
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+}
+@media (max-width: 768px) {
+	.grid-result .item {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	#fb_button {
+		padding-left: 15px;
+		margin-bottom: 15px;
+	}
+	.page_introduction .inner {
+		padding: 15px;
+	}
+	.page-heading {
+		font-size: 20px;
+		margin: 0;
+	}
+	.subtitle {
+		font-size: 16px;
+	}
+	.result-info h2 {
+		margin-top: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+
+	.table-responsive{
+		overflow-x: hidden;
+	}
+	.inner-page .navbar .container-fluid {
+		padding: 0;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 430px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 385px) {
+
+}
+
+/* FullHD and 4K screen */
+.page-cover.tour_detail {
+	background-size:cover;
+}
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+
+}

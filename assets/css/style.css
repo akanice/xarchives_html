@@ -1,0 +1,334 @@
+/*
+	CR Team - Professional Web Designer
+*/
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato-regular.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato-regular.ttf')  format('truetype'), 
+}
+@font-face {
+  font-family: 'Lato light';
+  src: url('/assets/fonts/lato-light.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato-light.ttf')  format('truetype'), 
+}
+@font-face {
+  font-family: 'Lato bold';
+  src: url('/assets/fonts/lato-bold.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato-bold.ttf')  format('truetype'), 
+}
+@font-face {
+  font-family: 'Lato black';
+  src: url('/assets/fonts/lato-black.ttf'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/lato-black.ttf')  format('truetype'), 
+}
+body {
+	overflow-x: auto;
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+    height: 100%;
+	background: #fff;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input {
+	outline: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+a {
+	color: #0273b9;
+	font-family: 'Roboto', sans-serif;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+a:hover {
+	color: #f58635;
+}
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, .alert, a, .td-name, td, button.close {
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+p {
+    margin: 0 0 15px;
+    line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+}
+@media(min-width:767px) {
+    p {
+        margin: 0 0 10px;
+        line-height: 1.6;
+    }
+}
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;
+}
+:-ms-input-placeholder {
+   color: #ccc;
+}
+.float-left {float: left}
+.float-right {float: right}
+.center {text-align: center}
+.align-right {text-align: right;}
+.align-left {text-align: left;}
+.img-holder {
+	width: 100%;
+}
+.clearfix {
+	clear: both;
+}
+.clearfix:after {
+	display: block;
+    content: "";
+    clear: both;
+}
+.top-bar {
+	background-image: linear-gradient(to right, #0074bd , #00ade9, #00ade9);
+	padding: 5px;
+	width: 100%;
+}
+.top-bar-info .text {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 0 15px;
+}
+.top-bar-info .text.phone {
+	border-right: 1px solid #fbfbfb;
+}
+.top-bar-info .text.email {
+	margin-right: 10px;
+}
+.text .fa {
+	margin-right: 8px;
+}
+.navbar {
+	background: #fff;
+	padding: 5px;
+}
+.inner-page .navbar {
+	padding: 5px 0;
+}
+.btn-block {
+	vertical-align: middle;
+	display: table-cell;
+}
+.navbar .btn-block {
+	height: 70px;
+	margin-right: 25px;
+}
+.btn-register {
+	background: #0273b9;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fbfbfb;
+	border: 0;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar .btn-register {
+	margin-right: 25px;
+}
+.inner-page.wrapper {
+	top: 30px;
+}
+.wrapper.wrapper-full-page {
+    height: auto;
+    min-height: calc(100vh - 110px);
+	background: #0088cc;
+}
+.full-page > .content {
+	min-height: auto;
+}
+.page-login > .content, .lock-page > .content {
+    padding-top: 15px;
+}
+.full-page:before {
+	opacity: 0;
+}
+.full-page:after {
+	opacity: 0;
+}
+.wrapper.wrapper-full-page.page-login {
+	background: url('/assets/img/background_login.jpg') no-repeat center center;
+	background-size: cover;
+}
+.wrapper.wrapper-full-page.page-login.page-register {
+	background: url('/assets/img/bg_logo.png') no-repeat center center;
+}
+.page-login:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image:  linear-gradient(30deg, #4b6db4 , #4fb3e2, #4fc1eb);
+	background-size: 100% 100%;
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.96;
+	z-index: 2;
+	display: inline-block;
+}
+.page-login.page-register:after {
+	background-image:  linear-gradient(30deg, #4b6db4 , #4fb3e2, #4fc1eb);
+}
+.page-login .container {
+	width: 1050px;
+	box-shadow:1px 0px 15px 5px #5656563d;
+}
+.page-login .full-page {
+	padding-top: 60px;
+}
+.page-login.page-register .container {
+	box-shadow: none;
+}
+.nopadding {
+	padding: 0;
+}
+.btn-fill {
+	width: 100%;
+}
+.btn-fill.btn-gplus {
+	background: #d73d32;
+	border: 1px solid #d73d32;
+}
+.page-login .inner {
+	background-image: linear-gradient(10deg, #2890b9a6, #179dd2bd, #4b6db4db),url(/assets/img/bg_form_login.jpg),url(/assets/img/bg_form_login.jpg);
+	background-size: cover;
+	padding: 50px;
+	height: 30%;
+	min-height: 600px;
+}
+.page-login .inner .text {
+	color: #fff;
+}
+.page-login .text h1 {
+	text-transform: uppercase;
+	font-family: 'Lato black';
+	line-height: 1.3;
+	font-size: 42px;
+}
+.page-login .text p {
+	font-family: 'Lato light';
+	font-size: 32px;
+	margin-bottom: 5px;
+	line-height: 1.3;
+}
+.btn-full {
+	width: 100%;
+}
+.btn {
+	transition: linear 0.2s all;
+}
+.btn-login {
+	padding: 10px 25px;
+    background: #0273b9;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-login:hover,.btn-login:focus,.btn-register:hover,.btn-register:focus {
+	background: #06649e;
+	color: #fff;
+}
+.page-login .inner.login-form {
+	background: #fff;
+}
+.page-login .login-form .heading{
+	font-size:34px;
+	color: #0273b9;
+	font-weight: normal;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.page-login p.extra {
+	margin-top: 10px;
+	font-size: 14px;
+}
+.nc-form .form-control {
+    padding: 10px 18px;
+    height: auto;
+    font-size: 16px;
+}
+.nc-form .form-control::-webkit-input-placeholder {
+   color: #ccc;
+   font-family: 'Lato light';
+}
+.nc-form label {
+	font-weight: normal;
+}
+.forget-password {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	font-size: 16px;
+}
+.page-login .nc-form .form-group {
+	position: relative;
+}
+.page-register .card {
+	padding: 25px;
+	border-radius: 0;
+	box-shadow: 0;
+	margin-bottom: 30px;
+}
+.page-register .card h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.page-register .card p {
+	font-size: 14px;
+	color: #4a4a4a;
+}
+.page-register .pd-right {
+	padding-right: 80px;
+}
+.page-register .pd-left {
+	padding-left: 80px;
+}
+.navbar-nav .search-form {
+	padding: 10px 15px;
+}
+.navbar-nav .search-form .form-control {
+	background: #fafafa;
+}
+.navbar-nav .search-form .nc-form {
+	width: 735px;
+}
+.search-form .btn-search {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	border:none;
+}
+.search-form .btn-search i.fa {
+	color: #333;
+}
+.inner-page .main-panel > .content {
+    padding: 100px 15px;
+}
