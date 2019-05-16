@@ -1,0 +1,22 @@
+$url: "images" !default;
+@mixin cubic-transition($delay, $duration, $property) {
+    transition: {
+        duration: $duration;
+        property: $property;
+        timing-function: cubic-bezier(.7,1,.7,1);
+    }
+}
+ /*@include cubic-transition($delay: 0, $duration: 350ms, $property: (transform)); */
+
+@function px_to_rem($target, $context: $base-size) {
+  @if $target == 0 { @return 0 }
+  @return $target / $context + 0rem;
+}
+$base-size: 16px;
+$lh: 1.313;
+$fontmain:'Montserrat', sans-serif;
+$fontmain2:'Roboto', sans-serif;
+$colormain:#0273b9;
+$colormain2:#206dc0;
+$color1:#e67817;
+/**Apply: "font-size: px_to_rem(16px)" or "font: 400 px_to_rem(16px) arial;" **/

@@ -332,3 +332,11 @@ a {
 .inner-page .main-panel > .content {
     padding: 100px 15px;
 }
+.bottom-footer {
+	background: #358fc7;
+}
+.bottom-footer .title {
+	font-size: 13px;
+	color: #fff;
+	margin: 8px 0;
+}

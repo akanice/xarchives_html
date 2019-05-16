@@ -31,6 +31,59 @@
 	.result-info h2 {
 		margin-top: 10px;
 	}
+	.page-login .container {
+		width: auto;
+	}
+	.top-bar-info .text.phone {
+		display: block;
+		border: none;
+		text-align: right;
+	}
+	.top-bar-info .text.email {
+		margin-right: 0;
+	}
+	.xa-navbar > div {
+		width: 50%;
+	}
+	.xa-navbar .btn-block {
+		display: block;
+		text-align: right;
+	}
+	.navbar .btn-register {
+		margin-right: 10px;
+		margin-top: 15px;
+	}
+	.page-login .full-page {
+		padding-top: 0;
+	}
+	.page-login.page-register .full-page {
+		padding-top: 15px;
+	}
+	.page-login .inner {
+		min-height: auto;
+		padding: 30px;
+	}
+	.page-login .text h1 {
+		font-size: 28px;
+	}
+	.page-login .text p {
+		font-size: 16px;
+	}
+	.page-login:after {
+		display: none;
+	}
+	.page-login.page-register:after {
+		display: block;
+	}
+	.page-register .pd-right {
+		padding-right: 15px;
+	}
+	.page-register .pd-left {
+		padding-left: 15px;
+	}
+	.btn-facebook.btn-fill {
+		margin-bottom: 10px;
+	}
 }
 @media (min-width: 768px) and (max-width: 1920px) {
 
