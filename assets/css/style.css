@@ -161,7 +161,7 @@ a {
 	background: #0088cc;
 }
 .full-page > .content {
-	min-height: auto;
+	min-height: calc(100vh - 218px);
 }
 .page-login > .content, .lock-page > .content {
     padding-top: 15px;
@@ -177,7 +177,7 @@ a {
 	background-size: cover;
 }
 .wrapper.wrapper-full-page.page-login.page-register {
-	background: url('/assets/img/bg_logo.png') no-repeat center center;
+	/* background: url('/assets/img/bg_logo.png') no-repeat center center; */
 }
 .page-login:after {
 	content: "";
